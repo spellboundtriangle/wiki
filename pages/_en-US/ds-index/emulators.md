@@ -18,20 +18,25 @@ There are many emulators present for the DS and DSi. This page provides a compre
 | Atari 5200              | [A5200DS][a5200ds]                               | `.a52`                                 |                                                |
 | Atari 7800              | [A7800DS][a7800ds]                               | `.a78`                                 |                                                |
 | Atari XEGS              | [XEGS-DS][xegs-ds]                               | `.xex`, `.atr`                         |                                                |
+| Colecovision            | [ColecoDS][colecods], [S8DS][s8ds]               | `.col`
 | DS                      | [nds-bootstrap][ndsbs], flashcard kernel, native | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].sav`[^2]                     |
 | DSiWare                 | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs]     | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].pub`, `saves/[rom name].prv` |
 | DSTWO Plugin            | [DSTWO][dstwo][^3]                               | `.plg`                                 |                                                |
+| Fast Video              | Coming Soon                                      | `.fv`
 | Game Boy (Color)        | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[rom name].sav`                               |
 | Game Boy Advance        | [GBARunner2][gbarunner2][^4], native[^5]         | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                               |
 | Game Gear               | [S8DS][s8ds]                                     | `.gg`                                  | `[rom name].gg.sav`                            |
 | Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[rom name].srm`[^6]                           |
 | Intellivision           | [Nintellivision][nintellivision]                 | `.int`                                 |                                                |
-| Master System           | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`                           |
-| Fast Video              | Coming Soon                                      | `.fv`                                  |                                                |
+| Master System           | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`                           |                                  |                                                |
+| Neo Geo Pocket          | [NGPDS][ngpds]                                   | `.ngp`
 | NES/Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[rom name].sav`                               |
 | PC Engine/TurboGrafx-16 | [NitroGrafx][nitrografx]                         | `.pce`                                 |                                                |
 | Rocket Video            | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                                |
+| SG-1000                 | [ColecoDS][colecods], [S8DS][s8ds]               | `.sg`
 | SNES[^7]                | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`[^8]                           |
+| Sord M5                 | [ColecoDS][colecods]                             | `.m5`
+| WonderSwan              | [NitroSwan][nitroswan]                           | `.ws`
 {:.table}
 
 [^1]: Text files containing the path to a DS homebrew app and arguments to launch it with, see [nds-hb-menu's README](https://github.com/devkitPro/nds-hb-menu#passing-arguments) for more info
