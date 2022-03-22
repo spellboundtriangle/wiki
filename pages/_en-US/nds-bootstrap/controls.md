@@ -40,7 +40,7 @@ These do not apply to homebrew.
         - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
         - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
-- Returning to loader may not work on some O3DS models, and does not work in B4DS mode or when used as a button combination in DSiWare
+- Returning to loader may not work on some O3DS models, and does not work in B4DS mode
 - The button combination for opening the in-game menu can be changed in the TWiLight Menu++ settings
 - Screenshots are saved to `sd:/_nds/nds-bootstrap/screenshots.tar`. This file can be opened using an archive viewer such as [7-Zip](https://www.7-zip.org/)
 - Taking screenshots is currently not possible in B4DS mode
